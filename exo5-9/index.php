@@ -14,8 +14,12 @@
     $region['62'] = 'Pas-de-Calais';
     // Boucle pour recupération des valeurs de chaque index
     foreach ($region as $value) {
-    // Affichage de la valeur des index
-    echo $value."  ";
+  ?>
+    <!-- Affichage de la valeur de l'index -->
+    <p>
+        <?= $value ?>
+    </p>
+  <?php
     }
   ?>
 </body>

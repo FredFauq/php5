@@ -13,10 +13,12 @@
     $region['02'] = 'Aisne';
     $region['62'] = 'Pas-de-Calais';
     // Boucle de récupération des clés et des valeurs
-    foreach($region as $cle => $value) {
-    // Affichage de la phrase avec concaténation
-    echo 'Le département ' . $value . ' a le numéro ' . $cle . '. ';
-  }
+    foreach($region as $number => $value) { ?>
+        
+    <!-- Affichage de la phrase avec concaténation -->
+    <p>Le département <?= $value ?> a le numéro <?= $number ?></p>
+  <?php 
+    }
   ?>
 </body>
 </html>

@@ -12,6 +12,9 @@
     $region['80'] = 'Somme';
     $region['02'] = 'Aisne';
     $region['62'] = 'Pas-de-Calais';
+    /* ou bien seconde écriture plus compacte :
+     * $region = array['60' ==> 'Oise','59' ==> 'Nord','80' ==> 'Somme', '02' ==> 'Aisne', '62' ==> 'Pas-de-Calais']
+     */
     // Ajout de la valeur de l'index 51
     $region['51'] = 'Marne';
     // Affichage de la valeur de l'index 51
